@@ -16,7 +16,7 @@
                                     <!--NOTE: pitch_gearbox=harmonic drive + reduction ratio due to the cable transmission-->
         <param name="Gearbox_E2J">   	    1       </param>
         <param name="useMotorSpeedFbk">     1       </param>
-        <param name="MotorType">        "BLL_MOOG" </param>
+        <param name="MotorType">        "DC" </param>
 
         <param name="Verbose">		0    	</param>
     </group>
