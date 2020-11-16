@@ -16,7 +16,8 @@
     <xi:include href="wrappers/motorControl/knee-one-mc_wrapper.xml" />
 
     <!--  CALIBRATORS --> 
-    <!--<xi:include href="calibrators/knee-calib.xml" /> -->
+    <xi:include href="calibrators/knee-calib.xml" />
+	<xi:include href="calibrators/knee-one-calib.xml" />
     
     </devices>
 </robot> 

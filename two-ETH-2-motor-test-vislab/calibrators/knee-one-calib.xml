@@ -2,12 +2,12 @@
 <!DOCTYPE devices PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
 
 
-	<device xmlns:xi="http://www.w3.org/2001/XInclude" name="knee-calibrator" type="parametricCalibratorEth">
+	<device xmlns:xi="http://www.w3.org/2001/XInclude" name="knee-one-calibrator" type="parametricCalibratorEth">
                 <xi:include href="../general.xml" />
                 
 		<group name="GENERAL">
 		    <param name="joints">  1  </param> <!-- the number of joints of the robot part -->
-		    <param name="deviceName"> Knee_Calibrator </param>
+		    <param name="deviceName"> Knee_one_Calibrator </param>
 		</group>
 
         <group name="HOME">
@@ -37,11 +37,11 @@
 		<param name="CALIB_ORDER">(0) </param>
 
 		<action phase="startup" level="10" type="calibrate">
-		    <param name="target">knee-mc_wrapper</param>
+		    <param name="target">knee-one-mc_wrapper</param>
 		</action>
 
 		<action phase="interrupt1" level="1" type="park">
-		    <param name="target">knee-mc_wrapper</param>
+		    <param name="target">knee-one-mc_wrapper</param>
 		</action>
 
 		<action phase="interrupt3" level="1" type="abort" />

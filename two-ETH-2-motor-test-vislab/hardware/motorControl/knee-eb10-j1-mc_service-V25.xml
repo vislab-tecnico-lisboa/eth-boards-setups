@@ -21,9 +21,9 @@
                     <param name="minor">            6           </param>     
                 </group>                    
                 <group name="FIRMWARE">
-                    <param name="major">            3           </param>    
-                    <param name="minor">            3           </param> 
-                    <param name="build">            3           </param>
+                    <param name="major">            5           </param>    
+                    <param name="minor">            2           </param> 
+                    <param name="build">            2           </param>
                 </group>
             </group>
              
@@ -33,22 +33,22 @@
 
                 <group name="ACTUATOR">                 
                     <param name="type">             foc     </param>
-                    <param name="port">             CAN1:3:1</param>
+                    <param name="port">             CAN1:1:0</param>
                 </group>
                 
                 <group name="ENCODER1">  
                     <param name="type">             none      </param>  
-                    <param name="port">             CONN:P11</param>
-                    <param name="position">         atjoint</param> 
-                    <param name="resolution">       4096</param>
-                    <param name="tolerance">        0.703</param>  
+                    <param name="port">             CONN:none</param>
+                    <param name="position">         none</param> 
+                    <param name="resolution">       0</param>
+                    <param name="tolerance">        0</param>  
                 </group>        
                 
                 <group name="ENCODER2">
                     <param name="type">             roie    </param>
-                    <param name="port">             CAN1:3:1</param>
-                    <param name="position">         atmotor</param>
-                    <param name="resolution">       2048   </param>
+                    <param name="port">             CAN1:1:0 </param>
+                    <param name="position">         atmotor </param>
+                    <param name="resolution">       512   </param>
                     <param name="tolerance">        0      </param>  
                 </group>  
  
