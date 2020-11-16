@@ -9,15 +9,15 @@
         </paramlist>
       
         <param name="period"> 10                </param>
-        <param name="name">   /single-ETH-2FOC-motor/knee_one        </param>
-        <param name="ports">  knee_one              </param>
+        <param name="name">   /single-ETH-2FOC-motor/knee        </param>
+        <param name="ports">  knee              </param>
         <param name="joints"> 1                 </param>
       
       
         <action phase="startup" level="5" type="attach">
         <paramlist name="networks">
         <!-- The param value must match the device name in the corresponding body_part-ebX-jA_B-mc.xml file -->
-            <elem name="FirstSetOfJoints">  knee-eb10-j1-mc </elem>
+            <elem name="FirstSetOfJoints">  knee-eb10-j0-mc </elem>
         </paramlist>
         </action>
       
