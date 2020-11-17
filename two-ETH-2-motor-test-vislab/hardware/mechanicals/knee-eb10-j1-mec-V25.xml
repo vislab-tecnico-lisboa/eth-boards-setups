@@ -9,7 +9,7 @@
         <param name="AxisMap">               0   </param>
         <param name="AxisName">       "r_knee_one"   </param>
         <param name="AxisType">     "revolute"   </param>        
-        <param name="Encoder">         0.0505   </param>
+        <param name="Encoder">         0.505   </param>
         <param name="fullscalePWM">      32000   </param>
         <param name="ampsToSensor">     1000.0   </param>
         <param name="Gearbox_M2J">     -100.00   </param>
@@ -23,8 +23,8 @@
     
     <group name="LIMITS">
         <!--                                     0         -->
-        <param name="hardwareJntPosMax">       100      </param>
-        <param name="hardwareJntPosMin">         -100      </param>
+        <param name="hardwareJntPosMax">       1000      </param>
+        <param name="hardwareJntPosMin">         -1000      </param>
         <param name="rotorPosMin">               0      </param> 
         <param name="rotorPosMax">               0      </param>
     </group>
