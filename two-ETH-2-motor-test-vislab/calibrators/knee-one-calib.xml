@@ -12,16 +12,18 @@
 
         <group name="HOME">
         <param name="positionHome">                       0        </param>
-        <param name="velocityHome">                       10.00    </param>
+        <param name="velocityHome">                       -5.00    </param>
         </group>
         
         
         
         <group name="CALIBRATION">
         <param name="calibrationType">                    5        </param>
-        <param name="calibration1">	0		</param> 
-        <param name="calibration2">	0	    </param> 
-        <param name="calibration3">	0		</param> 
+        <param name="calibration1">	4000		</param> 
+        <param name="calibration2">	500	    </param> 
+        <param name="calibration3">	0		</param>
+		<param name="calibrationZero">	0.0		</param>
+		<param name="calibrationDelta">	20.0		</param>
         
         
         <param name="calibration4">                       0.0        </param>
