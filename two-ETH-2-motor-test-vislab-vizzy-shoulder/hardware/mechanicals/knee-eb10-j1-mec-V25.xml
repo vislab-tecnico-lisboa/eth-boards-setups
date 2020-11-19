@@ -7,13 +7,12 @@
         <param name="Joints"> 1 </param> 
 
         <param name="AxisMap">               0   </param>
-        <param name="AxisName">       "r_knee"   </param>
+        <param name="AxisName">       "r_knee_one"   </param>
         <param name="AxisType">     "revolute"   </param>        
-        <param name="Encoder">         182.044   </param>
-        <param name="fullscalePWM">      32000   </param>
+        <param name="Encoder">         -2110.58   </param>
+        <param name="fullscalePWM">      800   </param>
         <param name="ampsToSensor">     1000.0   </param>
         <param name="Gearbox_M2J">     1.00   </param>
-		<param name="JointEncoderType">     "OPTICAL_QUAD" </param>
                                     <!--NOTE: pitch_gearbox=harmonic drive + reduction ratio due to the cable transmission-->
         <param name="Gearbox_E2J">   	    1       </param>
         <param name="useMotorSpeedFbk">     1       </param>
@@ -24,20 +23,22 @@
     
     <group name="LIMITS">
         <!--                                     0         -->
-        <param name="hardwareJntPosMax">       100      </param>
-        <param name="hardwareJntPosMin">         -100      </param>
+        <param name="hardwareJntPosMax">       70      </param>
+        <param name="hardwareJntPosMin">        0      </param>
         <param name="rotorPosMin">               0      </param> 
         <param name="rotorPosMax">               0      </param>
     </group>
 
     <group name="2FOC">
+		<param name="Autocalibration">        0   </param>
+		<param name="Verbose">         1   </param>
         <param name="HasHallSensor">         0   </param>
         <param name="HasTempSensor">         0   </param>
-        <param name="HasRotorEncoder">       0   </param>
+        <param name="HasRotorEncoder">       1   </param>
         <param name="HasRotorEncoderIndex">  0   </param>
         <param name="HasSpeedEncoder">       0   </param>
         <param name="RotorIndexOffset">      0   </param>
-        <param name="MotorPoles">            0   </param>
+        <param name="MotorPoles">            2   </param>
    </group>
 
     <group name="COUPLINGS"> 
