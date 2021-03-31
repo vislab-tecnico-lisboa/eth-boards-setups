@@ -4,8 +4,8 @@
 <params xmlns:xi="http://www.w3.org/2001/XInclude" robot="single-ETH-2FOC-motor" build="1">
 
     <group name="PC104">
-        <param name="PC104IpAddress">           10.0.1.104      </param>
-        <param name="PC104IpPort">              12345           </param>
+        <param name="PC104IpAddress">           10.1.3.104      </param>
+        <param name="PC104IpPort">              10002          </param>
         <param name="PC104TXrate">              1               </param> 
         <param name="PC104RXrate">              5               </param>
     </group>
