@@ -10,33 +10,30 @@
         <group name="PROPERTIES">
         
             <group name="ETHBOARD">
-                <param name="type">                 mc4plus        </param> 
+                <param name="type">                 mc4plus    </param> 
             </group>          
-
-             
-            
 
             <group name="JOINTMAPPING">
 
                 <group name="ACTUATOR">                 
-                    <param name="type">             pwm     </param>
-                    <param name="port">             CONN:P3</param>
+                    <param name="type">             pwm        </param>
+                    <param name="port">             CONN:P3    </param>
                 </group>
                 
                 <group name="ENCODER1">  
-                    <param name="type">             none      </param>  
-                    <param name="port">             CONN:P11</param>
-                    <param name="position">         atjoint</param> 
-                    <param name="resolution">       4096</param>
-                    <param name="tolerance">        0.703</param>  
+                    <param name="type">             none       </param>  
+                    <param name="port">             CONN:none  </param>
+                    <param name="position">         none       </param> 
+                    <param name="resolution">       0          </param>
+                    <param name="tolerance">        0          </param>  
                 </group>        
                 
                 <group name="ENCODER2">
-                    <param name="type">             qenc    </param>
-                    <param name="port">             CONN:P3</param>
-                    <param name="position">         atmotor</param>
-                    <param name="resolution">       2048   </param>
-                    <param name="tolerance">        0      </param>  
+                    <param name="type">             qenc       </param>
+                    <param name="port">             CONN:P3    </param>
+                    <param name="position">         atmotor    </param>
+                    <param name="resolution">       2048       </param>
+                    <param name="tolerance">        0          </param>  
                 </group>  
  
             </group>    
