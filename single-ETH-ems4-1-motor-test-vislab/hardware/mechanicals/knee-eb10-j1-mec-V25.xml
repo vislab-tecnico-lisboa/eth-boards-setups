@@ -9,10 +9,10 @@
         <param name="AxisMap">               0   </param>
         <param name="AxisName">       "r_knee_one"   </param>
         <param name="AxisType">     "revolute"   </param>        
-        <param name="Encoder">         10.0   </param>
+        <param name="Encoder">         182.044   </param>
         <param name="fullscalePWM">      32000   </param>
         <param name="ampsToSensor">     1000.0   </param>
-        <param name="Gearbox_M2J">     -100.00   </param>
+        <param name="Gearbox_M2J">     1   </param>
                                     <!--NOTE: pitch_gearbox=harmonic drive + reduction ratio due to the cable transmission-->
         <param name="Gearbox_E2J">   	    1       </param>
         <param name="useMotorSpeedFbk">     1       </param>
@@ -30,7 +30,7 @@
     </group>
 
     <group name="2FOC">
-		<param name="Autocalibration">        1   </param>
+		<param name="Autocalibration">        0   </param>
 		<param name="Verbose">         1   </param>
         <param name="HasHallSensor">         0   </param>
         <param name="HasTempSensor">         0   </param>
