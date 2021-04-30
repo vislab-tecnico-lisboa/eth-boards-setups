@@ -10,22 +10,22 @@
         <param name="AxisName">       "r_knee"   </param>
         <param name="AxisType">     "revolute"   </param>        
         <param name="Encoder">         182.044   </param>
-        <param name="fullscalePWM">       3360   </param>
-        <param name="ampsToSensor">       1000   </param>
-        <param name="Gearbox_M2J">        1.00   </param>
+        <param name="fullscalePWM">      3360   </param>
+        <param name="ampsToSensor">     1000.0   </param>
+        <param name="Gearbox_M2J">     1.00   </param>
 		<param name="JointEncoderType">     "OPTICAL_QUAD" </param>
-        <!--NOTE: pitch_gearbox=harmonic drive + reduction ratio due to the cable transmission-->
-        <param name="Gearbox_E2J">   	  1.00   </param>
-        <param name="useMotorSpeedFbk">      1   </param>
-        <param name="MotorType">           "DC"  </param>
+                                    <!--NOTE: pitch_gearbox=harmonic drive + reduction ratio due to the cable transmission-->
+        <param name="Gearbox_E2J">   	    1       </param>
+        <param name="useMotorSpeedFbk">     1       </param>
+        <param name="MotorType">        "DC" </param>
 
-        <param name="Verbose">		1    	     </param>
+        <param name="Verbose">		1    	</param>
     </group>
     
     <group name="LIMITS">
         <!--                                     0         -->
         <param name="hardwareJntPosMax">       100      </param>
-        <param name="hardwareJntPosMin">      -100      </param>
+        <param name="hardwareJntPosMin">         -100      </param>
         <param name="rotorPosMin">               0      </param> 
         <param name="rotorPosMax">               0      </param>
     </group>

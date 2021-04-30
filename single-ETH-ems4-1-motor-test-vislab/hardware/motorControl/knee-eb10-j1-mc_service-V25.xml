@@ -13,6 +13,7 @@
                 <param name="type">                 ems4        </param> 
             </group>          
 			
+			
 			<group name="CANBOARDS"> 
                 <param name="type">                 foc         </param> 
                 <group name="PROTOCOL">
@@ -26,6 +27,8 @@
                 </group>
             </group>
              
+            
+
             <group name="JOINTMAPPING">
 
                 <group name="ACTUATOR">                 
@@ -42,11 +45,11 @@
                 </group>        
                 
                 <group name="ENCODER2">
-                    <param name="type">             roie      </param>
-                    <param name="port">             CAN1:1:0  </param>
-                    <param name="position">         atmotor   </param>
-                    <param name="resolution">       2048      </param>
-                    <param name="tolerance">        0         </param>  
+                    <param name="type">             roie    </param>
+                    <param name="port">             CAN1:1:0 </param>
+                    <param name="position">         atmotor </param>
+                    <param name="resolution">       2048   </param>
+                    <param name="tolerance">        0      </param>  
                 </group>  
  
             </group>    
@@ -57,4 +60,3 @@
     
   
 </params>
-
