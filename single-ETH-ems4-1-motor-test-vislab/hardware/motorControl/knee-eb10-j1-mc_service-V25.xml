@@ -48,7 +48,7 @@
                     <param name="type">             roie    </param>
                     <param name="port">             CAN1:1:0 </param>
                     <param name="position">         atmotor </param>
-                    <param name="resolution">       -2048   </param>
+                    <param name="resolution">       512   </param>
                     <param name="tolerance">        0      </param>  
                 </group>  
  
