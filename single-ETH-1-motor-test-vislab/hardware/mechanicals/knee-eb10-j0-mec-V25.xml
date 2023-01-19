@@ -9,13 +9,13 @@
         <param name="AxisMap">               0   </param>
         <param name="AxisName">       "r_knee"   </param>
         <param name="AxisType">     "revolute"   </param>        
-        <param name="Encoder">         182.044   </param>
+        <param name="Encoder">         73255.5   </param>
         <param name="fullscalePWM">      3360   </param>
         <param name="ampsToSensor">     1000.0   </param>
         <param name="Gearbox_M2J">     1.00   </param>
 		<param name="JointEncoderType">     "OPTICAL_QUAD" </param>
                                     <!--NOTE: pitch_gearbox=harmonic drive + reduction ratio due to the cable transmission-->
-        <param name="Gearbox_E2J">   	    1       </param>
+        <param name="Gearbox_E2J">   	    1.0       </param>
         <param name="useMotorSpeedFbk">     1       </param>
         <param name="MotorType">        "DC" </param>
 

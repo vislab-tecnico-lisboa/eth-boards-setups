@@ -23,7 +23,7 @@
                 <group name="FIRMWARE">
                     <param name="major">            5           </param>    
                     <param name="minor">            3           </param>
-					<param name="build">            220           </param>
+					<param name="build">            220          </param>
                 </group>
             </group>
              

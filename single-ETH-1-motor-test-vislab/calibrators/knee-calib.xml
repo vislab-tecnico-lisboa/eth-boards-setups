@@ -12,26 +12,26 @@
 
         <group name="HOME">
         <param name="positionHome">                       0        </param>
-        <param name="velocityHome">                       1.00    </param>
+        <param name="velocityHome">                       10.00    </param>
         </group>
         
         
         
         <group name="CALIBRATION">
         <param name="calibrationType">                    5        </param>
-        <param name="calibration1">	200		</param> 
-        <param name="calibration2">	80	    </param> 
+        <param name="calibration1">	400		</param> 
+        <param name="calibration2">	0.0	    </param> 
         <param name="calibration3">	0		</param> 
         
         
         <param name="calibration4">                       0.0        </param>
         <param name="calibration5">                       0.0        </param>
         <param name="calibrationZero">                 0.0        </param>
-        <param name="calibrationDelta">                   0.0        </param>
-        <param name="startupPosition">                   30.00       </param>
+        <param name="calibrationDelta">                   -40.0        </param>
+        <param name="startupPosition">                   0.00       </param>
         <param name="startupVelocity">                    10.0        </param>
-        <param name="startupMaxPwm">                   100          </param>
-        <param name="startupPosThreshold">                2          </param>
+        <param name="startupMaxPwm">                   1200          </param>
+        <param name="startupPosThreshold">                1          </param>
         </group>
 
 		<param name="CALIB_ORDER">(0) </param>
